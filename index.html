@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مركز 4Service لخدمات السيارات - صيانة ميكانيكية وفحص وبرمجة">
+    <meta name="keywords" content="صيانة سيارات، ميكانيكي، فحص سيارات، برمجة سيارات، 4Service">
+    <meta name="author" content="4Service">
+
+    <title>4Service - مركز خدمات السيارات</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="src/assets/images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/assets/images/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/assets/images/favicon/apple-touch-icon.png">
+
+    <!-- Google Fonts - Cairo for Arabic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="src/assets/images/logo.jpg" alt="4Service Logo">
+            </a>
+
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger" id="hamburger" aria-label="فتح القائمة" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <!-- Navigation -->
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">الرئيسية</a></li>
+                    <li><a href="#services" class="nav-link">خدماتنا</a></li>
+                    <li><a href="#location" class="nav-link">الموقع</a></li>
+                    <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+                </ul>
+            </nav>
+
+            <!-- Overlay for mobile menu -->
+            <div class="nav-overlay" id="nav-overlay"></div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">مركز 4Service لخدمات السيارات</h1>
+            <p class="hero-subtitle">خبرة واحترافية في صيانة وفحص وبرمجة السيارات</p>
+            <a href="https://wa.me/9660582707405" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i>
+                تواصل معنا عبر واتساب
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header animate-on-scroll fade-in-up">
+                <!-- <span class="badge">شاملة</span> -->
+                <h2 class="section-title">خدماتنا المتميزة</h2>
+            </div>
+
+            <div class="services-grid">
+                <!-- Mechanical Maintenance Card -->
+                <div class="service-card animate-on-scroll fade-in-up stagger-1">
+                    <div class="service-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3 class="service-title">صيانة ميكانيكية</h3>
+                    <p class="service-description">صيانة شاملة لجميع أنواع السيارات مع قطع غيار أصلية وضمان على الخدمة</p>
+                </div>
+
+                <!-- Inspection & Programming Card -->
+                <div class="service-card animate-on-scroll fade-in-up stagger-2">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="service-title">فحص وبرمجة</h3>
+                    <p class="service-description">فحص كمبيوتر شامل وبرمجة متقدمة لجميع أنظمة السيارة الإلكترونية</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll fade-in-up">موقع المركز</h2>
+
+            <div class="location-card animate-on-scroll scale-up">
+                <div class="location-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h3 class="location-title">المملكة العربية السعودية</h3>
+                <p class="location-description">يسعدنا استقبالكم في مركزنا</p>
+                <a href="https://maps.app.goo.gl/nc9Px4EWfei5Mk1m7" class="btn btn-maps" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-directions"></i>
+                    عرض على خرائط جوجل
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll fade-in-up">معلومات التواصل</h2>
+
+            <div class="contact-grid">
+                <!-- Phone -->
+                <a href="tel:+966582707405" class="contact-card animate-on-scroll fade-in-up stagger-1">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <span class="contact-label">الهاتف</span>
+                    <span class="contact-value" dir="ltr">058 270 7405</span>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:serviice4@outlook.sa" class="contact-card animate-on-scroll fade-in-up stagger-2">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <span class="contact-label">البريد الإلكتروني</span>
+                    <span class="contact-value">serviice4@outlook.sa</span>
+                </a>
+
+                <!-- TikTok -->
+                <a href="https://www.tiktok.com/@4service" class="contact-card animate-on-scroll fade-in-up stagger-3" target="_blank" rel="noopener noreferrer">
+                    <div class="contact-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </div>
+                    <span class="contact-label">تيك توك</span>
+                    <span class="contact-value" dir="ltr">@4service</span>
+                </a>
+
+                <!-- Snapchat -->
+                <a href="https://www.snapchat.com/add/servicee4" class="contact-card animate-on-scroll fade-in-up stagger-4" target="_blank" rel="noopener noreferrer">
+                    <div class="contact-icon">
+                        <i class="fab fa-snapchat-ghost"></i>
+                    </div>
+                    <span class="contact-label">سناب شات</span>
+                    <span class="contact-value" dir="ltr">servicee4</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">مركز 4Service - جميع الحقوق محفوظة &copy; 2026</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="src/js/main.js"></script>
+</body>
+</html>
