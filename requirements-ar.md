@@ -25,3 +25,10 @@
 - [x] التحقق من معلومات التواصل
 - [ ] اختبار الموقع على أجهزة ومتصفحات متعددة
 - [ ] تفعيل GitHub Pages
+
+Action required from you:                                                                                                                                         
+                                                                                                                                                                    
+  To make the form functional, you need to get a Web3Forms access key:                                                                                              
+  1. Go to https://web3forms.com                                                                                                                                    
+  2. Enter the email where you want to receive form submissions (e.g., serviice4@outlook.sa)                                                                        
+  3. Replace YOUR_ACCESS_KEY in index.html line 169 with the key they provide                
