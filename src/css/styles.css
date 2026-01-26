@@ -429,6 +429,19 @@ section {
     color: var(--color-white);
 }
 
+.service-card.highlight .service-icon {
+    width: calc(100% - 32px);
+    height: auto;
+    margin: 0 16px var(--spacing-lg);
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.service-logo {
+    width: 100%;
+    height: auto;
+}
+
 .service-title {
     font-size: var(--font-size-xl);
     font-weight: 700;
