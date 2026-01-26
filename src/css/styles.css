@@ -460,6 +460,11 @@ section {
     border: 2px solid #818cf8;
 }
 
+.service-card.highlight .service-description {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+}
+
 /* --------------------------------------------------------------------------
    Location Section
    -------------------------------------------------------------------------- */
